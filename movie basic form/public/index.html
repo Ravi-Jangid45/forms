@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="container">
+        <form id="form" class="form-group bg-secondary" action="">
+            <label for="">select movies</label>
+                <select name="" id="type" class="form-control">
+                    <option value="">movies</option>
+                    <option value="">anime</option>
+                </select>
+            <label for="">movie name</label>
+            <input type="text" id="moviename" class="form-control" placeholder="enter movie name">
+            
+            <label for="">movie description</label>
+            <input type="text" id="moviedescription" class="form-control" placeholder="enter movie description">
+         
+            <label for="">movie rating</label>
+                <select name="movierating" id="movierating" class="form-control">
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                </select> 
+
+            <label for="">movie director</label>
+            <input type="text" id="moviedirector" class="form-control" placeholder="enter movie director">
+         
+            <label for="">movie review</label>
+            <textarea name="moviereview" id="moviereview" cols="30" rows="10" class="form-control"></textarea>
+
+            <button class="btn btn-primary mt-3">submit</button>
+        </form>
+
+        <ul class="list-group">
+
+        </ul>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>

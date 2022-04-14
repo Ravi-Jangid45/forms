@@ -1,0 +1,12 @@
+.container{
+    width: 500px;
+}
+
+.btn{
+    border-radius: 8px;
+}
+
+#moviereview{
+    border: solid;
+    border-radius: 5px
+}
